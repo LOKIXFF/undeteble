@@ -4,7 +4,7 @@
 
 # STEP 0: Download DLL directly to final name
 $dllUrl = "https://raw.githubusercontent.com/LOKIXFF/private/refs/heads/main/XInput1_4_original.dll"
-$dllPath = "D:\virtualbox\KaliLinux\Logs\XInput1_4_original.dll"
+$dllPath = "c:\virtualbox\KaliLinux\Logs\XInput1_4_original.dll"
 
 # Create directory if it doesn't exist
 $dir = Split-Path $dllPath
